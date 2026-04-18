@@ -103,3 +103,23 @@ article p time {
 article ul {
   margin-top: 0.5em;
 }
+
+
+html {
+  color-scheme: light dark;
+}
+
+nav {
+  --border-color: oklch(50% 10% 200 / 40%);
+}
+
+label.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+}
+
+input, textarea, button, select {
+  font: inherit;
+}
