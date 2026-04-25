@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Expository Visualization",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Designed a static expository visualization analyzing 50,000+ food items from Walmart, Target, and Whole Foods. Explored relationships between food processing levels, nutritional content, and pricing across stores using the GroceryDB dataset."
+    },
+    {
+        "title": "Hidden Markov Model for Electricity Demand",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Designed and trained a three-state Hidden Markov Model to classify hourly California electricity demand into low, medium, and high regimes using price and load data."
+    },
+    {
+        "title": "N-Gram",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Engineered an N-gram language model with recursive back-off using a text corpus as the training source."
+    },
+    {
+        "title": "Loan Application Analysis",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Cleaned and preprocessed real-world loan data to study lender decision-making using only approved loan records."
+    },
+    {
+        "title": "Aperiam itaque similique odit.",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Doloremque quidem accusamus aperiam labore, ullam saepe veniam nesciunt, nulla magni, atque eos dolorem in earum vitae culpa fuga fugiat? Nesciunt culpa cumque magni! Vero ullam similique ipsum vel repellat."
+    },
+    {
+        "title": "Expedita quos recusandae voluptates!",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Repudiandae, deserunt aspernatur. Quae, numquam assumenda in natus minus veritatis quam ut perferendis odit necessitatibus, voluptatum quia iusto ipsum possimus repellat harum quasi itaque animi culpa dolor est! Repudiandae, eius."
+    },
+    {
+        "title": "Et ullam impedit eveniet.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Delectus cum nesciunt sit a quasi error? Maxime, doloribus velit? Quasi, ab inventore! Suscipit odit ratione porro dolorem! Facere, ullam qui! Pariatur aut explicabo quo sint quia eius corrupti reprehenderit?"
+    },
+    {
+        "title": "Ad alias aut totam.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Sequi quas possimus mollitia perspiciatis obcaecati accusantium cumque id error voluptates natus. Veritatis corrupti vitae eum perferendis vel numquam rerum eaque eius nemo reiciendis culpa quos officiis, corporis tempora voluptatibus?"
+    },
+    {
+        "title": "Dolores doloribus asperiores repellendus?",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Quo illum dolores deserunt temporibus omnis iste aliquid deleniti nostrum consequuntur, dolorem repudiandae nemo modi corporis numquam nulla veritatis. Repellendus cupiditate dignissimos quibusdam quis laboriosam corporis fugit ad exercitationem aliquid."
+    },
+    {
+        "title": "Magnam corrupti itaque commodi?",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Nesciunt nulla voluptatibus nobis possimus beatae deserunt eligendi sunt necessitatibus sint culpa eveniet consectetur aut cupiditate, fuga suscipit ipsam aperiam soluta! Id repellat a eos est accusamus quidem delectus debitis?"
+    },
+    {
+        "title": "Dicta deleniti ratione porro.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Quibusdam tempora quisquam commodi, quia similique modi unde veniam suscipit tempore nihil dolore voluptatem sequi alias sint aliquid excepturi minus saepe libero! Nostrum velit architecto quod, vel exercitationem vero a."
+    },
+    {
+        "title": "Veritatis culpa excepturi libero!",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Illo sint odio odit excepturi quam delectus aspernatur non hic, placeat corrupti ipsa iure quisquam deleniti ex debitis numquam? Optio fuga a facere nulla dolore ducimus labore consectetur, rem eos?"
+    }
+]
