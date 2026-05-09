@@ -3,9 +3,13 @@ import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm';
 // Global scales so brushing can access them
 let xScale, yScale;
 
+const BASE_PATH = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+  ? '/'
+  : '/portfolio/';
+
 // Step 1.1: Load and parse CSV
 async function loadData() {
-  const data = await d3.csv('loc.csv', (row) => ({
+  const data = await d3.csv(BASE_PATH + 'meta/loc.csv', (row) => ({
     ...row,
     line: Number(row.line),
     depth: Number(row.depth),
