@@ -201,3 +201,115 @@ input, textarea, button, select {
     fill: var(--color);
   }
 }
+
+/* ── Meta page: summary stats ── */
+dl.stats {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25em 1em;
+  margin-block: 1.5em;
+}
+
+dl.stats dt {
+  font-weight: 600;
+  color: oklch(50% 10% 240);
+  font-size: 85%;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  align-self: center;
+}
+
+dl.stats dd {
+  margin: 0;
+  font-size: 130%;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Tooltip ── */
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.2em 0.8em;
+  margin: 0;
+  transition-duration: 300ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info dt {
+  font-weight: 600;
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: oklch(55% 8% 240);
+  align-self: center;
+}
+
+dl.info dd {
+  margin: 0;
+  font-size: 95%;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tooltip {
+  position: fixed;
+  background: oklch(98% 1% 240 / 0.92);
+  color: oklch(20% 5% 240);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 20px oklch(0% 0% 0 / 0.15);
+  border-radius: 0.5em;
+  padding: 0.75em 1em;
+  pointer-events: none;
+  z-index: 100;
+  min-width: 14em;
+  border: 1px solid oklch(85% 5% 240 / 0.4);
+}
+
+/* ── Scatter plot circles ── */
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
+
+/* ── Gridlines ── */
+.gridlines line {
+  stroke: oklch(80% 3% 200);
+  stroke-opacity: 0.4;
+}
+
+.gridlines path {
+  display: none;
+}
+
+/* ── Brush selection (marching ants) ── */
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8;
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+#selection-count {
+  font-weight: 600;
+  color: oklch(45% 15% 240);
+  margin-block: 0.5em;
+}
